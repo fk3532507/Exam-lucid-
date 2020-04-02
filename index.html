@@ -9,12 +9,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  
     <title>Lucid!</title>
   </head>
   <body>
     
-    <header>
+    <header id="home">
     
     
         <div class="container">
@@ -27,22 +32,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">FEATURES</a>
+                      <a class="nav-link" href="#features">FEATURES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="#about">ABOUT</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">TESTIMONIALS</a>
+                        <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">PRICING</a>
+                        <a class="nav-link" href="#pricing">PRICING</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" href="#contact">CONTACT</a>
                       </li>  
                     
                     
@@ -67,7 +72,7 @@
           </div>
         </div> 
     </header>
-<section class="feature">
+<section class="feature" id="features">
   <div class="container">
     <div class="row text-center">
       <div class="col-12 ftr">
@@ -81,22 +86,22 @@
   <div class="container">
     <div class="row pc">
       <div class="col-sm-3">
-<img src="images/monitor.png" class="img-fluid" alt="">
+        <i class="fas fa-desktop"></i>
 <h3>Responsive</h3>
 <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
       </div>
       <div class="col-sm-3">
-        <img src="images/settings.png" class="img-fluid" alt="">
+        <i class="fas fa-cog"></i>
         <h3>Customizable</h3>
         <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
       </div>
       <div class="col-sm-3">
-        <img src="images/like.png" class="img-fluid" alt="">
+        <i class="fas fa-thumbs-up"></i>
         <h3>Lovely Design</h3>
         <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
       </div>
       <div class="col-sm-3">
-        <img src="images/phone.png" class="img-fluid" alt="">
+        <i class="fas fa-mobile-alt"></i>
         <h3>Mobile Friendly</h3>
         <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
       </div>
@@ -108,7 +113,7 @@
 
 </section>
 
-<section class="dip">
+<section class="dip" id="about">
   <div class="container">
     <div class="row ">
       <div class="col-sm-6">
@@ -144,14 +149,14 @@
 <p class="ds">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
       </div>
       <div class="col-sm-6">
-        <img src="images/iphone5.png" class="img-fluid" alt="">
+        <img src="images/iphone5.png" class="img-fluid"  alt="">
       </div>
     </div>
   </div>
 </section>
 
-<section class="pricing">
-  <div class="container">
+<section class="pricing" id="testimonials">
+  <div class="container" style="height: 175px;">
     <div class="row text-center">
       <div class="col-12 rtx">
         <p>Quality has it's price</p>
@@ -159,10 +164,11 @@
         <span></span> <span></span>
       </div> 
     </div>
-  </div>
-  <div class="container">
+  
+    
     <div class="row qt">
-      <div class="col-sm-6">
+      <div class="owl-carousel owl-theme">
+      <div class="col-sm-6" style="padding-bottom: 25px;">
      <h5>Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</h5>
       <div class="info">
         <img src="images/thumb1.png" alt="">  
@@ -173,7 +179,59 @@
       </div>
     
     </div>
-      <div class="col-sm-6">
+
+
+    <div class="col-sm-6" style="padding-bottom: 25px;">
+      <h5>Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</h5>
+       <div class="info">
+         <img src="images/thumb1.png" alt="">  
+         <address>
+             John Doe <br>
+             CEO,The Rivers Company
+         </address>
+       </div>
+     
+     </div>
+     <div class="col-sm-6" style="padding-bottom: 25px;">
+      <h5>Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</h5>
+       <div class="info">
+         <img src="images/thumb1.png" alt="">  
+         <address>
+             John Doe <br>
+             CEO,The Rivers Company
+         </address>
+       </div>
+     
+     </div>
+
+     <div class="col-sm-6" style="padding-bottom: 25px;">
+      <h5>Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</h5>
+       <div class="info">
+         <img src="images/thumb1.png" alt="">  
+         <address>
+             John Doe <br>
+             CEO,The Rivers Company
+         </address>
+       </div>
+     
+     </div>
+     <div class="col-sm-6" style="padding-bottom: 25px;">
+      <h5>Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</h5>
+       <div class="info">
+         <img src="images/thumb1.png" alt="">  
+         <address>
+             John Doe <br>
+             CEO,The Rivers Company
+         </address>
+       </div>
+     
+     </div>
+
+
+
+
+
+      <div class="col-sm-6" style="padding-bottom: 25px;">
         <h5>A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is quite dictated by your shoes.</h5>
       <div class="info">
         <img src="images/thumb2.png" alt="">
@@ -183,11 +241,11 @@
         </address>
       </div>
       </div>
-    </div>
+    </div></div>
   </div>
 </section>
 
-<section class="look-what-you-see">
+<section class="look-what-you-see" id="pricing">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-sm-8">
@@ -298,8 +356,8 @@
   </div>
 </section>
 
-<section class="Contact">
-  <div class="container">
+<section class="Contact" id="contact">
+  <div class="container" style="height: 146px;">
     <div class="row nm pt-5 text-center">
       <div class="col-sm-12">
         <p>STAY IN TOUCH</p>
@@ -307,10 +365,10 @@
         <span></span> <span></span>
       </div>
     </div>
-  </div>
+  
 
 
-  <div class="container">
+ 
     <div class="row po">
       <div class="col-sm-4 text-center">
         <i class="fas fa-mobile-alt"></i>
@@ -328,11 +386,11 @@
         <p>Support@yourname.com</p>
       </div>
     </div>
-  </div>
+  
   <div class="container">
-    <div class="row frm">
-    <div class="col-2"></div>
-      <div class="col-8 justify-content-center">
+    <div class="row frm justify-content-center">
+   
+      <div class="col-8 justify-content-center" style="background: black;">
 <div class="container">
   <div class="row inp">
   <div class="col-6">
@@ -360,9 +418,7 @@
   </div></div>
 </div>
       </div>
-      <div class="col-2">
-
-      </div>
+     
     </div>
   </div>
 </section>
@@ -398,8 +454,45 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
- 
-
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+   
+    <script>
+      $(function () {
+  $.scrollUp({
+    scrollName: 'scrollUp', // Element ID
+    topDistance: '300', // Distance from top before showing element (px)
+    topSpeed: 300, // Speed back to top (ms)
+    animation: 'fade', // Fade, slide, none
+    animationInSpeed: 200, // Animation in speed (ms)
+    animationOutSpeed: 200, // Animation out speed (ms)
+    scrollText: 'Scroll to top', // Text for element
+    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+  });
+});
+    </script>
+  <script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:false,
+      autoplay: true,
+      autoplayTimeout: 7000,
+      autoplayHoverPause: true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          },
+          1000:{
+              items:2
+          }
+      }
+  })
+  </script>
 
   </body>
 </html>
